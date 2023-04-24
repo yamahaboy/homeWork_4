@@ -1,0 +1,40 @@
+.flex-table{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+}
+.flex-table-header-row{
+    display: flex;
+    flex-direction: row;
+    text-align: center ;
+}
+.flex-table-header-cell{
+    width: 100%;
+    flex:1 1 auto;
+}
+.flex-table-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-table-cell{
+    width: 100%;
+    flex:1 1 auto;
+}
+.flex-table-header{
+    font-weight: bold;
+}
+
+.flex-table-body{
+    border: 1px solid black;
+}
+
+.flex-table-cell{
+    border: 1px solid black;
+}
+
+#aligh-text{
+    text-align: center ;
+}
